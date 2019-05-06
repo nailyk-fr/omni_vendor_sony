@@ -264,9 +264,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/etc/permissions/com.fingerprints.extension.xml:system/etc/permissions/com.fingerprints.extension.xml \
     vendor/sony/lilac/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/sony/lilac/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
-    vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.camera.addon.xml:system/etc/permissions/com.sonymobile.camera.addon.xml \
+    vendor/sony/lilac/proprietary/vendor/etc/permissions/com.sonymobile.camera.addon.xml:vendor/etc/permissions/com.sonymobile.camera.addon.xml \
     vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.getmore.api.xml:system/etc/permissions/com.sonymobile.getmore.api.xml \
-    vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.imageprocessor.xml:system/etc/permissions/com.sonymobile.imageprocessor.xml \
+    vendor/sony/lilac/proprietary/vendor/etc/permissions/com.sonymobile.imageprocessor.xml:vendor/etc/permissions/com.sonymobile.imageprocessor.xml \
     vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.miscta.xml:system/etc/permissions/com.sonymobile.miscta.xml \
     vendor/sony/lilac/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/lilac/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
@@ -472,19 +472,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/lib64/vendor.semc.system.idd@1.0.so:system/lib64/vendor.semc.system.idd@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.somc.hardware.miscta@1.0.so:system/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/lilac/proprietary/lib64/vendor.somc.hardware.security.secd@1.0.so:system/lib64/vendor.somc.hardware.security.secd@1.0.so \
-    vendor/sony/lilac/proprietary/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so:system/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so \
-    vendor/sony/lilac/proprietary/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so:system/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so \
-    vendor/sony/lilac/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so:system/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so \
-    vendor/sony/lilac/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so:system/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so \
-    vendor/sony/lilac/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so:system/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so \
-    vendor/sony/lilac/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so:system/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so \
-    vendor/sony/lilac/proprietary/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libarcsoft_handsigns.so:system/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libarcsoft_handsigns.so \
-    vendor/sony/lilac/proprietary/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libhandsigns_jni.so:system/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libhandsigns_jni.so \
-    vendor/sony/lilac/proprietary/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libimage_converter.so:system/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libimage_converter.so \
-    vendor/sony/lilac/proprietary/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libmpbase.so:system/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libmpbase.so \
-    vendor/sony/lilac/proprietary/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so:system/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so \
-    vendor/sony/lilac/proprietary/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so:system/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so \
-    vendor/sony/lilac/proprietary/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so:system/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so:vendor/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so:vendor/priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so:vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so:vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so:vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so:vendor/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libarcsoft_handsigns.so:vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libarcsoft_handsigns.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libhandsigns_jni.so:vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libhandsigns_jni.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libimage_converter.so:vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libimage_converter.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libmpbase.so:vendor/priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libmpbase.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so:vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so:vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so \
+    vendor/sony/lilac/proprietary/vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so:vendor/priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so \
     vendor/sony/lilac/proprietary/vendor/sony/touch/images/big_touch.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/big_touch.png \
     vendor/sony/lilac/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
 
